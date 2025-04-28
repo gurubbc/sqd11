@@ -16,19 +16,19 @@ class CalculatorTest {
 		Assert.assertEquals(expected, actual);
 	}
 
-//	@Test
-//	void testSub1() {
-//		Calculator c=new Calculator();
-//		int actual=c.sub(10, 5);
-//		int expected=5;
-//		Assert.assertEquals(expected, actual);
-//	}
+	@Test
+	void testSub1() {
+		Calculator c=new Calculator();
+		int actual=c.sub(10, 5);
+		int expected=5;
+		Assert.assertEquals(expected, actual);
+	}
 
-//	@Test
-//	void testSub2() {
-//		Calculator c=new Calculator();
-//		int actual=c.sub(10, 100);
-//		int expected=90;
-//		Assert.assertEquals(expected, actual);
-//	}
+	@Test
+	void testSub2() {
+		Calculator c=new Calculator();
+		int actual=c.sub(10, 100);
+		int expected=90;
+		Assert.assertEquals(expected, actual);
+	}
 }
