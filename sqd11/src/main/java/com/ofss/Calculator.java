@@ -13,6 +13,7 @@ public class Calculator {
 		int result=0;
 		int result1=0; // unused variable, code smell
 		// introduce branching with if ...else comment
+		// Another comment
 		if (a > b) {
 			result=a-b;
 		}
