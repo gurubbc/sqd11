@@ -11,6 +11,7 @@ public class Calculator {
 	
 	public int sub(int a, int b) {
 		int result=0;
+		int result1=0; // unused variable, code smell
 		// introduce branching with if ...else
 		if (a > b) {
 			result=a-b;
